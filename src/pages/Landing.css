@@ -1,0 +1,233 @@
+.disclaimer-tag {
+    display: inline-block;
+    background: #FFEBEE;
+    color: #C62828;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    border-left: 4px solid #C62828;
+}
+
+.hero-btns.single-line-btns {
+    flex-wrap: wrap;
+}
+
+.experience-legacy-section {
+    padding: 30px 0;
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+}
+
+.legacy-badge-box {
+    background: var(--white);
+    padding: 30px 50px;
+    border-radius: 100px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid var(--secondary);
+}
+
+.legacy-icon {
+    font-size: 3rem;
+    background: var(--secondary);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.legacy-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    color: var(--text-dark);
+}
+
+.legacy-content p {
+    color: var(--text-muted);
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .legacy-badge-box {
+        flex-direction: column;
+        border-radius: 20px;
+        text-align: center;
+        padding: 40px 20px;
+    }
+}
+
+.statement-card {
+    background: var(--white);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.statement-card h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.statement-card>p {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    max-width: 800px;
+    margin: 0 auto 50px;
+    line-height: 1.8;
+}
+
+.statement-paths {
+    text-align: left;
+    gap: 40px;
+}
+
+.path {
+    background: var(--bg-light);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.path h3 {
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.path p {
+    margin-bottom: 25px;
+}
+
+.landing-page .hero {
+    background: linear-gradient(135deg, rgba(255, 140, 0, 0.05) 0%, rgba(255, 215, 0, 0.1) 100%);
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    max-width: 800px;
+    margin: 0 auto 25px;
+    color: var(--text-dark);
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.section-tag {
+    color: var(--primary);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.split-section {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.journey-text h2 {
+    font-size: 2.5rem;
+}
+
+.journey-text p {
+    margin-bottom: 20px;
+    color: var(--text-muted);
+}
+
+.text-link {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.trust-badge {
+    background: var(--secondary);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 15px 35px rgba(255, 215, 0, 0.4);
+    margin: 0 auto;
+}
+
+.trust-badge .big-text {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--text-dark);
+}
+
+.trust-badge .small-text {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+.three-col {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+
+.feature-card {
+    padding: 40px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card .icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contact-cta {
+    background: var(--text-dark);
+    color: var(--white);
+}
+
+.contact-cta p {
+    margin-bottom: 30px;
+    color: #bdc3c7;
+}
+
+@media (max-width: 992px) {
+
+    .split-section,
+    .three-col {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+}
